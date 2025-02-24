@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kalkulator[PITRIADI]</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="kalkulator">
+    <h4>PITRIADI</h4>
+	<input type="text" id="keluaran" class="keluar" disabled>
+	<div class="tombol">
+		<button class="hapu" onclick="hapus()">C</button>
+		<button class="hapu" onclick="hapus1()">←</button>
+		<button class="opr" onclick="op('/')">÷</button>
+		<button class="opr" onclick="op('*')">x</button>
+
+		<button onclick="bt('7')">7</button>
+		<button onclick="bt('8')">8</button>
+		<button onclick="bt('9')">9</button>
+		<button class="opr" onclick="op('-')">-</button>
+
+		<button onclick="bt('4')">4</button>
+		<button onclick="bt('5')">5</button>
+		<button onclick="bt('6')">6</button>
+		<button class="opr" onclick="op('+')">+</button>
+
+		<button onclick="bt('1')">1</button>
+		<button onclick="bt('2')">2</button>
+		<button onclick="bt('3')">3</button>
+
+		<button class="opr" onclick="bt('%')">%</button>
+		<button onclick="bt('0')">0</button>
+		<button onclick="bt('.')">.</button>
+		<button class="kalt" onclick="kal()">=</button>
+	</div>
+</div>
+<script type="text/javascript" src="scrip.js" )></script>
+</body>
+</html>
